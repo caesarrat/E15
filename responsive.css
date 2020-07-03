@@ -1,0 +1,226 @@
+/* Header */
+
+@media (max-width: 1118px) {
+  nav img {
+    left: 8%;
+  }
+}
+@media (max-width: 944px) {
+  nav img {
+    left: 6%;
+    top: 20px;
+    width: 130px;
+  }
+  nav ul li a {
+    font-size: 17px;
+  }
+}
+@media (max-width: 860px) {
+  label #btn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #34495e;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+}
+
+/* Welcome */
+
+@media (max-width: 1068px) {
+  .welcome {
+    padding-top: 100px;
+}
+  .welcome h1 {
+      font-size: 34px;
+  }
+  .welcome h2 {
+      font-size: 26px;
+  }
+  .welcome .buat p {
+      font-size: 15px;
+      letter-spacing: 1px;
+  }
+  .welcome .buat a {
+      margin: 3px 20px;
+  }
+}
+@media (max-width: 830px) {
+  .welcome {
+      padding-top: 70px;
+  }
+  .welcome h1 {
+      font-size: 22px;
+  }
+  .welcome h2 {
+      font-size: 20px;
+      letter-spacing: 1px;
+      margin: 5px 0 20px 0;
+  }
+  .welcome p {
+      font-size: 15px;
+      margin: 3px 0;
+  }
+  .welcome a {
+      font-size: 13px;
+      padding: 10px 15px;
+  }
+  .welcome .lanjut {
+      margin: 15px 0;
+  }
+  .welcome .buat {
+    margin-top: 30px;
+  }
+  .welcome .buat p {
+      font-size: 15px;
+      letter-spacing: 0px;
+  }
+  .welcome .buat a {
+      margin: 3px 10px;
+  }
+}
+@media (max-width: 576px) {
+  .welcome {
+      padding-top: 30px;
+  }
+  .welcome h1, h2 {
+      letter-spacing: 1px;
+  }
+  .welcome h1 {
+      font-size: 15px;
+  }
+  .welcome h2 {
+      font-size: 11px;
+      margin: 5px 0 20px 0;
+  }
+  .welcome p {
+      font-size: 10px;
+      letter-spacing: 0px;
+      margin: 3px 0;
+  }
+  .welcome a {
+      font-size: 7px;
+      padding: 7px 5px;
+  }
+  .welcome .buat {
+    margin-top: 20px;
+  }
+  .welcome .buat p {
+      font-size: 8px;
+      letter-spacing: 0px;
+  }
+  .welcome .buat a {
+      margin: 3px 10px;
+  }
+}
+
+/* Form */
+
+@media (max-width: 1000px) {
+  .form {
+    margin: 100px 60px;
+    background-color: white;
+  }
+
+  .section-title {
+    font-size: 50px;
+  }
+
+  .contact-form p {
+    font-size: 30px;
+  }
+
+  input {
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  textarea {
+    height: 230px;
+    width: 600px;
+    margin-bottom: 50px;
+    font-size: 32px;
+  }
+
+  .captcha {
+    width: 600px;
+    height: 120px;
+  }
+
+  .image {
+    height: 80px;
+  }
+
+  .btn {
+    width: 600px;
+    line-height: 30px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 670px) {
+  .form {
+    margin: 100px 30px;
+    background-color: white;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .contact-form p {
+    font-size: 18px;
+  }
+
+  input {
+    width: 300px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+
+  textarea {
+    height: 150px;
+    width: 300px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+
+  .image {
+    height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .captcha {
+    width: 300px;
+    height: 100px;
+  }
+
+  .btn {
+    width: 300px;
+  }
+}
